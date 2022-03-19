@@ -1,9 +1,47 @@
 <!DOCTYPE html>
 <html>
-  <head><title>Peculiar syntax</title></head>
+  <head>
+    <title>Peculiar syntax</title>
+    <style>
+      body     { max-width: 60ch;
+	         margin-left: 10ch;
+	         margin-right: 5ch;
+	       }
+      .content { font-family: monospace;
+		 !margin: auto;
+	       }
+      h1       { margin-bottom: 0.1ch;
+	       }
+      h2       { margin-bottom: 0.5ch;
+		 font-size: 12pt;
+	       }
+      h3       { margin-bottom: 0.5ch;
+		 font-size: 11pt;
+       
+
+    </style>
+    </head>
   <body>
-    <H1> HTML's peculiar syntax</H1>
-    Who came up with HTML's peculiar syntax? It just goes over my head how it might possible be considered convenient to type every keyword twice. I know, compared with something like C it is easier to see where every scope ends, but still, it is a waste of keystrokes to me.
+    <h1>Random ramblings</h1>
+    <em>By Gustav Anvil</em><br/><br/>
+    <div class="content">
+    <h2> On HTML's peculiar syntax</h2>
+      Who came up with HTML's peculiar syntax? It just goes over my head how it might possible be considered convenient to type every keyword twice. I know, compared with something like C it is easier to see where every scope ends, but still, it seems like a massive waste of keystrokes to me, especially compared to languages like Markdown or org-mode.
+
+      <h3>XML</h3>
+      I know, this other Markup language does the same, but does that prove anything?
+      <h2>The plain text look</h2>
+      I like the look of plain text. It simply looks "clean". There are some things to consider when writing in plain text, though:
+      <ul>
+	<li>Setting margins may require manual work </li>
+	<li>Bullet lists definitely require manual work</li>
+	<li>Adding empasis is harder, by lack of such conveniences as bold or italic text</li>
+      </ul>
+
+      That's why I have decided to merely give this HTML document a plain text <strong>look</strong>, instead of using actual plain text. For this, all I had to do was setting a monospace font, and using margins and the "max-width" property in CSS to mimic the relatively short lines commonly used in plain text documents.
+	  
+      
+    </div>
   </body>
 </html>
 
